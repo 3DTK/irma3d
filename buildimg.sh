@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -xu
+set -xeu
 
 # replace /bin/sync because:
 #     update-initramfs: Generating /boot/initrd.img-4.19.0-4-arm64
